@@ -1,0 +1,28 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2020": true,
+        "node": true
+    },
+    "extends": ["airbnb", "prettier"],
+    "plugins": ["prettier"],
+    "rules": {
+        "no-unused-vars": "warn",
+        "no-console": "off",
+        "indent": ["error", 4],
+        "linebreak-style": ["error", "windows"],
+        "quotes": ["error", "single"],
+        "func-names": "off",
+        "prefer-const": [
+            "error",
+            {
+                "destructuring": "all"
+            }
+        ],
+        "max-len": ["error", { "code": 200 }],
+        "no-process-exit": "off",
+        "object-shorthand": "off",
+        "eol-last": "error",
+        "class-methods-use-this": "off"
+    }
+}
