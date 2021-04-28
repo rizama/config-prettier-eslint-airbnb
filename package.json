@@ -1,0 +1,36 @@
+{
+  "name": "config-prettier-eslint-airbnb",
+  "version": "1.0.0",
+  "description": "Optional - Set format on save and any global prettier options",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizama/config-prettier-eslint-airbnb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rizama/config-prettier-eslint-airbnb/issues"
+  },
+  "homepage": "https://github.com/rizama/config-prettier-eslint-airbnb#readme",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
