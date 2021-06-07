@@ -60,6 +60,12 @@ npx install-peerdeps --dev eslint-config-airbnb
 }
 ```
 
+### Note if you have an error "linebreaks to be 'LF' but found 'CRLF'" use this syntax bellow
+```
+npm run lint -- --fix
+```
+https://github.com/diegohaz/arc/issues/171
+
 ### Reference
 * ESLint Rules - https://eslint.org/docs/rules/
 * Prettier Options - https://prettier.io/docs/en/options.html
